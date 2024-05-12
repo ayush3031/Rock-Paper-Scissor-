@@ -99,7 +99,7 @@
                 .innerHTML = result;
             //console.log(playermov);
             document.querySelector('.js-move')
-                .innerHTML = `Your move : <img src="images/${playermov}-emoji.png" class="mve-icon">      Comp move : <img src="images/${comp}-emoji.png" class="mve-icon">`;
+                .innerHTML = `Your move : <img src="${playermov}-emoji.png" class="mve-icon">      Comp move : <img src="${comp}-emoji.png" class="mve-icon">`;
             }
             else
             {
